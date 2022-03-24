@@ -97,6 +97,7 @@ li {
   justify-content: center;
   width: 80%;
   margin: auto; 
+  min-width: auto;
 }
 
  .hero{
