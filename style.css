@@ -205,7 +205,11 @@ color:rgb(191,118,49);
 
 }
  .middle_text {
-   
+   margin-left: 20;
+ }
+
+ .end_text {
+   margin-left: 20;
  }
 .card_text {
  height: auto;
@@ -234,28 +238,45 @@ h3{
   margin-right:auto;
   margin-left:auto;
   width: 50%;
+ 
 
 }
 .more_info_page {
-  background-color: aqua;
+  background-color: #f0efeb;
 }
 .product_more_info {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
  
 }
 .bottom_page {
   margin-top: 2rem;
-  padding: 10px;
+ 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 5rem;
-  align-self: baseline;
+  height: auto;
+ 
   width: 100%;
   background-color: orangered;
 }
+.indent {
+  margin-left: 20px;
+}
+.bottom_text {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+  justify-content: space-around;
 
+}
+.copyright {
+  
+  padding-left: 7.5rem;
+  padding-right: 2rem;
+}
 .top_center {
   justify-self: center;
   align-self: center;
