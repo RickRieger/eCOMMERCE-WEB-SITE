@@ -229,7 +229,20 @@ h3{
   width: 100%;
  
 }
+.link_image {
+  display: block;
+  margin-right:auto;
+  margin-left:auto;
+  width: 50%;
 
+}
+.more_info_page {
+  background-color: aqua;
+}
+.product_more_info {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ 
+}
 .bottom_page {
   margin-top: 2rem;
   padding: 10px;
